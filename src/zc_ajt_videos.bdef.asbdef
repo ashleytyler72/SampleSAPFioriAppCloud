@@ -1,0 +1,17 @@
+projection implementation in class ZBP_C_AJT_VIDEOS unique;
+strict ( 2 );
+use draft;
+define behavior for ZC_AJT_VIDEOS alias ZcAjtVideos
+use etag
+
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+}

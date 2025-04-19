@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_AJT_VIDEOS'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_AJT_VIDEOS'
+  }
+}
+define service ZUI_AJT_VIDEOS_O4 provider contracts odata_v4_ui {
+  expose ZC_AJT_VIDEOS;
+}
